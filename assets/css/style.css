@@ -25,6 +25,10 @@ header {
     text-align: right;
 }
 
+header + * {
+    padding-top: 30px;
+}
+
 .btn {
     border: none;
     padding: 2px 4px;
@@ -37,15 +41,30 @@ header {
 /*MAIN*/
 
 .windows.flex {
-    background-color: antiquewhite;
-
     height: calc(100vh - 60px - 100px);
 
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 8px;
 
     overflow: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+
+}
+
+span {
+    background-color:rgb(82, 76, 76);
+    color: white;
 }
 
 
