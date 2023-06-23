@@ -77,6 +77,46 @@ span {
 
 /*FOOTER*/
 
-footer {
-    line-height: 100px;
+
+footer.flex {
+    justify-content: space-between;
+    height: 100px;
+
+    background-color: #1d1d1e;
+    color: white;
 }
+
+.icons.flex {
+    align-items: center;
+    gap: 5pxpx;
+
+    padding-left: 20px;;
+}
+
+.icon-case.flex {
+    align-items: center;
+    gap: 5px;
+
+    margin: 0 10px;
+    line-height: 30px;;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fa-share-from-square {
+    color: greenyellow;
+    text-align: right;
+}
+
+.end.flex {
+    align-items: center;
+
+    font-size: larger;
+    color: red;
+    background-color: #2e2e2f;
+    padding: 0 20px;
+}
+
+
