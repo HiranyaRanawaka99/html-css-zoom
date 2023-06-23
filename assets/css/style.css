@@ -12,6 +12,7 @@ body {
 
 .container {
     height: 100vh;
+    padding: 0 60px;
 }
 
 /*FLEX*/
@@ -23,7 +24,7 @@ body {
 /*HEADER*/
 
 header {
-    line-height: 30px;
+    line-height: 40px;
     text-align: right;
 }
 
