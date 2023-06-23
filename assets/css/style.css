@@ -9,7 +9,13 @@ body {
 }
 
 .container {
-    width: 100vw;
+    height: 100vh;
+}
+
+/*FLEX*/
+
+.flex {
+    display: flex;
 }
 
 /*HEADER*/
@@ -30,6 +36,15 @@ header {
 
 /*MAIN*/
 
+.windows.flex {
+    background-color: antiquewhite;
+
+    height: calc (100vh - 60px -100px);
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 
 /*FOOTER*/
