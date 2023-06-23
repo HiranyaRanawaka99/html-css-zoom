@@ -39,12 +39,18 @@ header {
 .windows.flex {
     background-color: antiquewhite;
 
-    height: calc (100vh - 60px -100px);
+    height: calc(100vh - 60px - 100px);
 
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    overflow: auto;
 }
 
 
 /*FOOTER*/
+
+footer {
+    line-height: 100px;
+}
